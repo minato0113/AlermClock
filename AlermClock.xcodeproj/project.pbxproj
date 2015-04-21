@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		529C9ECE19B5DA180056C459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C9ECD19B5DA180056C459 /* Foundation.framework */; };
+		5230CA4E1AA5BCF900A1D23C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52275E8A1A77AFA00057B4FC /* AVFoundation.framework */; };
+		525C5F0F1A7512EB008436ED /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 525C5F0E1A7512EB008436ED /* ViewController3.m */; };
 		529C9ED019B5DA180056C459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C9ECF19B5DA180056C459 /* CoreGraphics.framework */; };
 		529C9ED219B5DA180056C459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C9ED119B5DA180056C459 /* UIKit.framework */; };
 		529C9ED819B5DA180056C459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529C9ED619B5DA180056C459 /* InfoPlist.strings */; };
@@ -21,6 +22,10 @@
 		529C9EEF19B5DA180056C459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C9ED119B5DA180056C459 /* UIKit.framework */; };
 		529C9EF719B5DA180056C459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529C9EF519B5DA180056C459 /* InfoPlist.strings */; };
 		529C9EF919B5DA180056C459 /* AlermClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C9EF819B5DA180056C459 /* AlermClockTests.m */; };
+		52B399771A6E5AB10010D58E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B399761A6E5AB10010D58E /* ViewController2.m */; };
+		52F4AE711A8A0AE100394734 /* wind_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52F4AE6F1A8A0AE100394734 /* wind_sound.wav */; };
+		52F4AE721A8A0AE100394734 /* wind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F4AE701A8A0AE100394734 /* wind.jpg */; };
+		52F4AE741A8A0AE500394734 /* IMG_4088.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F4AE731A8A0AE500394734 /* IMG_4088.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52275E8A1A77AFA00057B4FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		525C5F0D1A7512EB008436ED /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		525C5F0E1A7512EB008436ED /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		529C9ECA19B5DA180056C459 /* AlermClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlermClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C9ECD19B5DA180056C459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		529C9ECF19B5DA180056C459 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,11 @@
 		529C9EF419B5DA180056C459 /* AlermClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlermClockTests-Info.plist"; sourceTree = "<group>"; };
 		529C9EF619B5DA180056C459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		529C9EF819B5DA180056C459 /* AlermClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlermClockTests.m; sourceTree = "<group>"; };
+		52B399751A6E5AB10010D58E /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		52B399761A6E5AB10010D58E /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		52F4AE6F1A8A0AE100394734 /* wind_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wind_sound.wav; sourceTree = "<group>"; };
+		52F4AE701A8A0AE100394734 /* wind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wind.jpg; sourceTree = "<group>"; };
+		52F4AE731A8A0AE500394734 /* IMG_4088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4088.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5230CA4E1AA5BCF900A1D23C /* AVFoundation.framework in Frameworks */,
 				529C9ED019B5DA180056C459 /* CoreGraphics.framework in Frameworks */,
 				529C9ED219B5DA180056C459 /* UIKit.framework in Frameworks */,
-				529C9ECE19B5DA180056C459 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +114,7 @@
 		529C9ECC19B5DA180056C459 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52275E8A1A77AFA00057B4FC /* AVFoundation.framework */,
 				529C9ECD19B5DA180056C459 /* Foundation.framework */,
 				529C9ECF19B5DA180056C459 /* CoreGraphics.framework */,
 				529C9ED119B5DA180056C459 /* UIKit.framework */,
@@ -119,6 +133,13 @@
 				529C9EE319B5DA180056C459 /* ViewController.m */,
 				529C9EE519B5DA180056C459 /* Images.xcassets */,
 				529C9ED419B5DA180056C459 /* Supporting Files */,
+				52B399751A6E5AB10010D58E /* ViewController2.h */,
+				52B399761A6E5AB10010D58E /* ViewController2.m */,
+				525C5F0D1A7512EB008436ED /* ViewController3.h */,
+				525C5F0E1A7512EB008436ED /* ViewController3.m */,
+				52F4AE6F1A8A0AE100394734 /* wind_sound.wav */,
+				52F4AE701A8A0AE100394734 /* wind.jpg */,
+				52F4AE731A8A0AE500394734 /* IMG_4088.png */,
 			);
 			path = AlermClock;
 			sourceTree = "<group>";
@@ -229,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				529C9EE619B5DA180056C459 /* Images.xcassets in Resources */,
+				52F4AE741A8A0AE500394734 /* IMG_4088.png in Resources */,
+				52F4AE721A8A0AE100394734 /* wind.jpg in Resources */,
 				529C9ED819B5DA180056C459 /* InfoPlist.strings in Resources */,
+				52F4AE711A8A0AE100394734 /* wind_sound.wav in Resources */,
 				529C9EE119B5DA180056C459 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				529C9EE419B5DA180056C459 /* ViewController.m in Sources */,
+				52B399771A6E5AB10010D58E /* ViewController2.m in Sources */,
 				529C9EDE19B5DA180056C459 /* AppDelegate.m in Sources */,
 				529C9EDA19B5DA180056C459 /* main.m in Sources */,
+				525C5F0F1A7512EB008436ED /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlermClock/AlermClock-Prefix.pch";
 				INFOPLIST_FILE = "AlermClock/AlermClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlermClock/AlermClock-Prefix.pch";
 				INFOPLIST_FILE = "AlermClock/AlermClock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +484,7 @@
 				529C9EFE19B5DA180056C459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		529C9EFF19B5DA180056C459 /* Build configuration list for PBXNativeTarget "AlermClockTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +493,7 @@
 				529C9F0119B5DA180056C459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
