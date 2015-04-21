@@ -75,6 +75,7 @@
     formatter.dateFormat = @"yyyy/MM/dd HH:mm:ss";
     NSString *formattedString1 = [formatter stringFromDate:now];
     
+    
     // NSCalendarとNSDateComponentsを使ってNSDate型を整数に変換
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSUInteger flags = NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute;
